@@ -20,6 +20,12 @@
     "mocha": "^2.3.3",
     "mysql": "^2.9.0",
     "sequelize": "^3.9.0",
-    "socket.io": "^1.3.7"
-  }
+    "socket.io": "^1.3.7",
+    "snyk": "^1.83.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
