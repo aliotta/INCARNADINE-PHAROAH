@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - sequelize > lodash:
+        patched: '2020-05-01T03:07:02.055Z'
+    - grunt-simple-mocha > mocha > yargs-unparser > lodash:
+        patched: '2020-05-01T03:07:02.055Z'
+    - grunt-mocha > grunt-lib-phantomjs > phantomjs > request > form-data > async > lodash:
+        patched: '2020-05-01T03:07:02.055Z'
